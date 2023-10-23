@@ -1,5 +1,5 @@
 # Please, leave your believes outside...
 
-Welcome, and thanks for coming in.
+Welcome
 
 If you want to live right away, try our [SHOES](./).
