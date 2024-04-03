@@ -1,19 +1,10 @@
 #include <stdio.h>
-#include <limits.h>
+#include "stats.h"
 
-int find_max(int *array, int size) {
-    int temp = INT_MIN;
-    for (int i=0; i<size; i++){
-        if(array[i]>temp){
-            temp=array[i];
-        }
-    }
-    return temp; 
-}   
 
 int main(){
-    int array[]={};
+    int array[]={2,3,5,14,-3};
 
-int max=find_max(array,2);
+int max=find_max(array,5);
 printf("max: %d\n", max);
 }
