@@ -1,4 +1,4 @@
-#include"stats.h"
+#include "stats.h"
 
 int find_max(int array[], int size) {
     int temp = INT_MIN;
