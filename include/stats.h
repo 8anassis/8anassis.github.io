@@ -1,4 +1,5 @@
 #include <limits.h>
+
 //Returns the maximun element of array
 //the array is static
 //if is empty returns INT_MIN
