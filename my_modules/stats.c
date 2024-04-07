@@ -12,9 +12,7 @@ int find_max(int array[], int size) {
     return temp; 
 }   
 
-//Generic function
-//Finding max of any TYPE between 2 objects.
-void* Max_generic(void* a,void* b){
+void* Max_generic(void* a,void* b,/*CompareFunc compare*/){
     if(a>=b)
         return a;
     else
